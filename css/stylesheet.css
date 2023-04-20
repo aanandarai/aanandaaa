@@ -1,0 +1,729 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* home container starts */
+.home::before {
+    background: url(../img/tow.jpg) center center/cover;
+    content: '';
+    height: 90%;
+    width: 100%;
+    opacity: 0.99;
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 250px;
+    opacity: 0.99;
+    color: #FB8D50;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.99;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home input {
+    opacity: 0.99;
+    text-align: center;
+    margin: auto;
+    display: block;
+    background-color: #FB8D50;
+    border: 4px white solid;
+    border-radius: 20px;
+    height: 40px;
+}
+
+/* section sign starts */
+.sign {
+    height: 500px;
+    width: 100%;
+    background-color: #14171b;
+    margin-top: 300px;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.sign .box1 {
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.sign .box2 {
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.sign .box3 {
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.sign .box4 {
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.med {
+    height: 150px;
+    width: 150px;
+    background-color: #FB8D50;
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+@media (max-width: 840px) {
+    .med {
+        display: none;
+    }
+}
+
+@media (min-width: 840px) {
+    .med {
+        display: block;
+    }
+}
+
+.ned {
+    height: 150px;
+    width: 150px;
+    background-color: #FB8D50;
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+@media (max-width: 840px) {
+    .ned {
+        display: none;
+    }
+}
+
+@media (min-width: 840px) {
+    .ned {
+        display: block;
+    }
+}
+
+.oed {
+    height: 150px;
+    width: 150px;
+    background-color: #FB8D50;
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+@media (max-width: 840px) {
+    .oed {
+        display: none;
+    }
+}
+
+@media (min-width: 840px) {
+    .oed {
+        display: block;
+    }
+}
+
+.ped {
+    height: 150px;
+    width: 150px;
+    background-color: #FB8D50;
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+@media (max-width: 840px) {
+    .ped {
+        display: none;
+    }
+}
+
+@media (min-width: 840px) {
+    .ped {
+        display: block;
+    }
+}
+
+.sign h1 {
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.sign p {
+    color: #FB8D50;
+    font-size: 17px;
+    padding-top: 19px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+.icon {
+    padding-top: 60px;
+    color: #183153;
+    font-size: 30px;
+}
+
+/* section shop starts */
+.shop {
+    height: 500px;
+    width: 100%;
+    background-color: #14171b;
+    margin-top: 50px;
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.shop .box1 {
+    height: 400px;
+    width: 40%;
+    border: #FB8D50 8px solid;
+    margin-top: 50px;
+}
+
+.shop .box2 {
+    height: 400px;
+    width: 40%;
+    border: #FB8D50 8px solid;
+    margin-top: 50px;
+}
+
+.shop .box1::before {
+    background: url(../img/off.jpg) center center/cover;
+    content: '';
+    opacity: 0.99;
+    position: absolute;
+    height: 380px;
+    width: 380px;
+}
+
+@media (max-width: 840px) {
+    .shop .box1::before {
+        display: none;
+    }
+}
+
+@media (min-width: 840px) {
+    .shop .box1::before {
+        display: block;
+    }
+}
+
+.shop .box2::before {
+    background: url(../img/womensweater.jpg) center center/cover;
+    content: '';
+    opacity: 0.99;
+    position: absolute;
+    height: 380px;
+    width: 380px;
+}
+
+@media (max-width: 840px) {
+    .shop .box2::before {
+        display: none;
+    }
+}
+
+@media (min-width: 840px) {
+    .shop .box2::before {
+        display: block;
+    }
+}
+
+.shop h1 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.shop input {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 25px;
+    border: #FB8D50 3px solid;
+    cursor: pointer;
+}
+
+/* section store starts */
+.instore {
+    height: 1400px;
+    width: 100%;
+    background-color: rgb(25, 31, 29);
+    margin: 34px auto;
+    display: block;
+}
+
+.instore h1 {
+    padding-top: 60px;
+}
+
+.instore h5 {
+    color: white;
+}
+
+.instre p {
+    padding-top: 30px;
+}
+
+.instore h4 {
+    margin-left: 600px;
+    color: #FB8D50;
+}
+
+@media (max-width: 840px) {
+    .instore h4 {
+        margin-left: 150px;
+    }
+}
+
+@media (min-width: 840px) {
+    .instore h4 {
+        display: block;
+    }
+}
+
+.instore h4 {
+    text-decoration: underline;
+
+}
+
+.instore .box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.instore .prod {
+    height: 500px;
+    width: 310px;
+    border: red solid 2px;
+}
+
+.instore .box1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.rod {
+    height: 500px;
+    width: 310px;
+    border: red 2px solid;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.prod img {
+    height: 300px;
+    width: 200px;
+}
+
+@media (max-width: 840px) {
+    .prod img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 840px) {
+    .prod img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+.rod img {
+    height: 300px;
+    width: 200px;
+}
+
+@media (max-width: 840px) {
+    .rod img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 840px) {
+    .rod img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+.con {
+    color: white;
+}
+
+.instore h6 {
+    color: aliceblue;
+}
+
+.star {
+    color: aliceblue;
+}
+
+/* section opa starts */
+.opa::before {
+    background: url('../img/ban1.jpg') center center/cover;
+    opacity: 0.30;
+    content: '';
+    height: 90%;
+    width: 100%;
+    position: absolute;
+}
+
+.opa h1 {
+    color: black;
+    font-size: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: #FB8D50 6px 1px 1px;
+    margin: 10px auto;
+    display: block;
+    padding-top: 150px;
+}
+
+.opa p {
+    color: black;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+
+}
+
+.opa button {
+    background: black;
+    border-radius: 12px;
+    border: 3px #FB8D50 solid;
+    color: #FB8D50;
+    height: 40px;
+    width: 100px;
+    margin: 30px auto;
+    display: block;
+}
+
+/* section new starts */
+.new {
+
+    height: 1400px;
+    width: 100%;
+    background-color: rgb(237, 242, 248);
+    margin-top: 200px;
+    display: block;
+}
+
+.new .box1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 40px auto;
+    padding-top: 40px;
+}
+
+.new .box1 h5 {
+    color: #14171b;
+}
+
+.new .box1 .con {
+    color: #14171b;
+}
+
+.new .box1 .con {
+    color: #14171b;
+}
+
+.new .box1 .star {
+    color: #14171b;
+}
+
+.new .box1 p {
+    color: #14171b;
+}
+
+.new h4 {
+    padding-left: 600px;
+    padding-top: 70px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FB8D50;
+}
+
+@media (max-width: 840px) {
+    .new h4 {
+        padding-left: 50px;
+    }
+}
+
+@media (min-width: 840px) {
+    .new h4 {
+        padding-left: 600px;
+    }
+}
+
+.new button {
+    border: 3px solid #FB8D50;
+    color: white;
+    background-color: black;
+    height: auto;
+    width: 100px;
+}
+
+.new button:hover {
+    cursor: pointer;
+    background-color: #FB8D50;
+    border-radius: 12px;
+    text-shadow: white 2px 1px 1px;
+    color: black;
+}
+
+/* section animation starts */
+.anim::before {
+    background: url('../img/ban3.jpg') center center/cover;
+    opacity: 0.77;
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: 80px;
+    white-space: pre;
+}
+
+.anim .box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position: relative;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-delay: 0.9;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-iteration-count: 3;
+    background: goldenrod;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+@media (max-width: 840px) {
+    .anim .box {
+        display: none;
+    }
+}
+
+@media (min-width: 840px) {
+    .anim .box {
+        display: block;
+    }
+}
+
+.box:hover {
+    animation-play-state: inherit;
+}
+
+
+
+@keyframes move {
+    0% {
+        left: 0;
+        background: #FB8D50;
+    }
+
+    100% {
+        left: 600px
+    }
+}
+
+.box:hover {
+    animation-timing-function: ease-in-out;
+}
+
+.box h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #14171b;
+    padding-top: 30px;
+
+}
+
+.anim h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #14171b;
+    text-shadow: #FB8D50 5px 1px 1px;
+    padding-top: 400px;
+}
+
+/* section last starts */
+.last {
+    height: 900px;
+    width: 100%;
+    background-color: #14171b;
+    margin-top: 250px;
+}
+
+.last h1 {
+    font: bold;
+    text-transform: uppercase;
+    color: #FB8D50;
+    padding-top: 100px;
+}
+
+.last input {
+    height: 40px;
+    width: 300px;
+    background-color: #262626;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.237);
+    border-radius: 12px;
+    margin-left: 500px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.last button {
+    height: 40px;
+    width: 150px;
+    background-color: #FB8D50;
+    border-radius: 12px;
+    border: rgba(255, 255, 255, 0.237) 4px solid;
+    cursor: pointer;
+    margin: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+
+.last button:hover {
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.237);
+    background-color: #262626;
+}
+
+.last p {
+    color: rgba(255, 255, 255, 0.526);
+    font-weight: bold;
+}
+
+.gut {
+    margin-top: 40px;
+}
+
+.gut ul {
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(255, 255, 255, 0.237);
+
+}
+
+.gut h6 {
+    font-size: 18px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+}
+
+.gut li {
+    color: rgba(255, 255, 255, 0.526);
+    font-weight: normal;
+    font-size: 15px;
+    padding: 8px;
+    text-align: left;
+}
+
+.gut li:hover {
+    color: #FB8D50;
+    cursor: pointer;
+}
+
+.border-bottom {
+    margin-top: 35px;
+}
+
+.border-right {
+    color: aliceblue;
+}
+
+.box {
+    color: white;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 70px;
+}
+
+.one {
+    height: 100px;
+    width: 400px;
+    background-color: #262626;
+    border: #14171b 3px solid;
+    color: #FB8D50;
+}
+
+.two {
+    height: 100px;
+    width: 400px;
+    background-color: #262626;
+    border: #14171b 3px solid;
+    color: #FB8D50;
+}
+
+.three {
+    height: 100px;
+    width: 400px;
+    background-color: #262626;
+    color: #FB8D50;
+    border: #14171b 3px solid;
+}
+
+.boxx {
+    height: 40px;
+    width: 100%;
+    background-color: #14171b;
+}
+
+.boxx p {
+    color: #FB8D50;
+}
